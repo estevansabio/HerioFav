@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--configurações de pagina-->
+    <!-- caracteres especiais de portugues -->
+    <meta charset="UTF-8">
+    <!-- dimensionamento de pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title é o texto que aparece na guia ou aba do navegador -->
+    <title>Homem-Aranha</title>
+</head>
+
+<body style ="background-color: rgb(229, 21, 21);">
+    <header>
+        <h1>Homem-Aranha</h1>
+        <p>
+            este site foi criado para mostrar coisas, curisidade e nos contar o que foi, o
+            <strong> Homem-Aranha</strong>
+        </p>
+        <nav>
+            <a href="#naosei">sobre</a>
+            <a href="#opa">listas</a>
+            <a href="#ola">links</a>
+            <a href="#tudo">imagem</a>
+            <a href="#bem">tabela</a>
+            <a href="#pa">formulario</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="naosei">
+            <h2>1. titulos e textos</h2>
+
+            <h3>exemplos de subtitulos</h3>
+
+            <p>
+                A tag &lt.p&gt; cria um paragrafo
+                podemos destacar uma palavra com <strong>negrito</strong> ou dar
+                enfase com o <em>italico</em>.
+            </p>
+            <p>
+                O Homem-Aranha é um dos super-heróis mais famosos da Marvel Comics, criado por Stan Lee e Steve Ditko em 1962. Sua primeira aparição foi na revista Amazing Fantasy #15.
+
+Sua identidade secreta é Peter Parker, um jovem estudante que foi picado por uma aranha radioativa (ou geneticamente modificada, dependendo da versão). Após isso, ele desenvolveu habilidades extraordinárias, como:
+
+
+Além de enfrentar vilões como Duende Verde, Doutor Octopus, Venom, Electro, Lagarto e Homem-Areia, Peter Parker também precisa equilibrar sua vida como estudante, fotógrafo e super-herói.
+
+Uma das frases mais marcantes do personagem é:
+
+"Com grandes poderes vêm grandes responsabilidades."
+
+Essa frase representa o principal ensinamento do Homem-Aranha: usar seus poderes para ajudar as pessoas e fazer o que é certo, mesmo quando isso exige sacrifícios pessoais.
+
+O Homem-Aranha se tornou um dos heróis mais populares do mundo por ser um personagem com quem muitas pessoas conseguem se identificar: ele enfrenta problemas comuns do dia a dia, como estudos, trabalho, amizades e dificuldades financeiras, enquanto luta para proteger a cidade de Nova York.
+
+            </p>
+            <p>
+                tambem podemos usar a tag &lt;mark&gt; para <mark>marcar um trecho importante</mark>
+            </p>
+
+            <p>
+                A tag &lt;br&gt;quebra uma linha <br> aparecerá em baixo.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="opa">
+            <h2>2. Listas</h2>
+            <h3>lista não ordenada</h3>
+
+            <ul>
+                <li>Escalar paredes.</li>
+                <li>Força e agilidade sobre-humanas.</li>
+                <li>Reflexos extremamente rápidos.</li>
+            </ul>
+
+            <h3>lista não ordenada</h3>
+
+            <ol>
+                <li>Lançar teias com seus lançadores mecânicos (na maioria das versões).</li>
+                <li>O famoso Sentido Aranha, que o alerta sobre perigos antes que eles aconteçam.</li>
+            </ol>
+
+        </section>
+<hr>
+        <section id="ola">
+            <h2>3. Links</h2>
+
+            <p>a tag &lt;a&gt; cria um hiperlink</p>
+
+            <a href="https://www.marvel.com/movies/spider-man-brand-new-day/HTML" target="blanlk"> acessar site do homem aranha</a>
+
+        </section>
+<hr>
+        <section id="tudo">
+            <h2>4. Imagens</h2>
+
+            <p>A tag &lt;img&gt;permite inserir imagens na página</p>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9w74r9rupxkxMMBZSC_lJvkQuG5fL6iSnnUOtxPNKTw&s=10.jpg"
+                alt="imagem homem aranha" width="400">
+        </section>
+<hr>
+        <section id="bem">
+            <h2>5. Tabela</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Filme </th>
+                        <th>nota</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>Homem-aranha sem volta para casa</td>
+                        <td>90%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Vingadores ultimato</td>
+                        <td>95%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Homem-Aranha: um novo dia</td>
+                        <td>94%</td>
+                    </tr>
+                </tbody>
+                </thead>
+
+            </table>
+        </section>
+<hr>
+        <section id="pa">
+            <h2>6.formulario</h2>
+
+            <form>
+                <p>
+                    <label for="seu heroi favorito">Seu heroi favorito</label><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu heroi">
+                </p>
+
+                <p>
+                    <label for="Email">O que voce acha dos super herois</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite aqui">
+                </p>
+
+                <p>
+                    <label for="curso">Super vilão mais forte:</label><br>
+                    <select name="curso" id="curso">
+                        <option value="">Selecione</option>
+                        <option value="html">Thanos</option>
+                        <option value="css">Doutor Destino</option>
+                        <option value="javascript">Ultron</option>
+                        <option value="javascript">Stan Lee</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Digite o que voce acha do homem aranha:</label><br>
+                    <textarea name="mensagem" id="mensagem" rows="5" cols="40"></textarea>
+                </p>
+
+                <button type="button">Enviar</button>
+                <button tpye="reset">Limpar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            A pagina foi criada para fins demonstrativos e mostrar o super heroi favorito. Para mais informações pesquise no google ou AI.
+        </p>
+        <small>Homem-Aranha</small>
+    </footer>
+</body>
+
+</html>
